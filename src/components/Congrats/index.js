@@ -8,6 +8,6 @@ export default props => {
             Congratulations! You guessed the word!
           </span>
        </div>
-     ) : <div  data-test="component-congrats" /> 
+     ) : <div data-test="component-congrats" /> 
   )
 }
