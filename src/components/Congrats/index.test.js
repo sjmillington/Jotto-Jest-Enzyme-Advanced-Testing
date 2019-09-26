@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 
 import Congrats from './index';
-import { findByTestAttr, checkPropErrorUndefined } from '../../../test/testUtils';
+import { findByTestAttr, checkPropErrorUndefined } from '../../test/testUtils';
 
 const setup = (props={success: true}) => {
    return shallow(<Congrats {...props} />)

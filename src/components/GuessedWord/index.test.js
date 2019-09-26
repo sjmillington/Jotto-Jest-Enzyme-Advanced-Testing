@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { findByTestAttr, checkPropErrorUndefined } from '../../../test/testUtils';
+import { findByTestAttr, checkPropErrorUndefined } from '../../test/testUtils';
 import GuessedWord from './index'
 
 const defaultProps = {
